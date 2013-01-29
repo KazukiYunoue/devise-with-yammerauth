@@ -1,0 +1,17 @@
+== Welcome to Rails
+
+This is sample for using devise with yammerauth.
+
+== Getting Started
+
+1. Go to https://www.yammer.com/client_applications/ and you get new application keys.
+
+2. Set the keys on environment values:
+       export YAMMER_CONSUMER_KEY=YOURYAMMERCONSUMERKEY
+       export YAMMER_CONSUMER_SECRET=YOURYAMMERCONSUMERSECRET
+
+3. Start server:
+       rails s
+
+4. Go to http://localhost:3000/ and you'll see:
+       "Sign in with Yammer"
